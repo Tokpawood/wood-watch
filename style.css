@@ -1,0 +1,348 @@
+*{
+    font-family: "fira regular";
+    top: 0px;
+    margin: 0px;
+    left: 0px;
+    /* background-color: rgba(46, 50, 68, 0.5); */
+}
+header{
+    display: block;
+    position: static;
+}
+.box_nav1{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8) !important;
+    height: 5vh;
+}
+.box-nav{
+    display: flex;
+    justify-content: right;
+    background-color:  black; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1-text{
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    text-decoration: none;
+    padding: 10px;
+}
+.navls{
+    display: flex;
+    justify-content: space-between;
+    list-style: none !important;
+}
+.navls li{
+    justify-content: space-between;
+    margin-top: 15px;
+    align-content: center;
+}
+.logo{
+    margin-top: 15px;
+    font-family: "fira black";
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    margin-right: 20rem;
+}
+.navls-container{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+    color: white;
+
+}
+.box-login{
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+
+}
+svg{
+    color: white;
+}
+.login{
+    size: 60px;
+}
+.mysection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vw;
+    background-image: url('../images/background/watcht002.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+}
+.h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: "ubuntu bold";
+    padding-top: 4rem;
+}
+.btn {
+  display: inline-block;
+  background: orangered;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 11%;
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: blue;
+  /* Green */
+  color: white;
+}
+.mysection2{
+    height: 30vw;
+    
+    
+}
+.myh2{
+    text-align: center;
+    font-size: 40px;
+}
+.box_img{
+    align-content: right;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px rgba(33, 24, 8, 0.6);
+    margin-left: 38%;
+    margin-top: 3rem;
+    margin: 10px;
+    margin-left: 50px;
+    transition: 2s;
+
+}
+.boximclass{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+
+}
+.box_img:hover{
+    scale: 1.2;
+    transition: 2s;
+}
+.mysection3{
+    /* height: 40vw; */
+    /* background-color: gray; */
+    /* background-image: url("images/Nouveaudossier/tile_watch_se__ckhapbowow2u_large.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}   
+.sectiontext{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 1%;
+}
+.sectionp{
+    /* border: 1px dotted green; */
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    font-family: "ubuntu bold";
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.spotsante{
+    /* border: 1px solid red; */
+    /* background-color: gray; */
+    width: 100%;
+}
+.info{
+    /* border: 1px solid ; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.sp{
+    margin: 20px ;
+    text-align: left;
+    font-size: 30px;
+    display: none;
+}
+.info >.subinfo{
+    margin: 10px;
+    /* border: 1px dashed orangered; */
+    width: 20%;
+    /* border: 1px solid; */
+    height: 15%;
+    background-color: rgba(253, 240, 240, 0.1);
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    margin-left: auto !important;
+
+ 
+}
+.subinfo:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s;
+}
+.sub-tex{
+    text-align: center;
+    font-size: 18px;
+    font-weight:600;
+    padding: 15px;
+}
+.sub-img{
+    width: 100px;
+    margin-left: 30px;
+    
+}
+#sub1{
+    width: 80%;
+}
+.box-section4{
+    border-style: initial;
+}
+.textn{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "ubuntu bold";
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    size: 2px;
+    background-color: orangered;
+    font-size: 15px;
+    padding: 10px;
+    color: white !important;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: blue;
+}
+video{
+   width: 50%;
+
+} 
+footer{
+    background-color: rgba(0, 0, 0);
+    color: rgba(255, 255, 255, 0.8) !important;
+    height: 50vh;
+}
+.jn{
+    color: white;
+    width: 30px;
+    background-color: orangered;
+    margin-left: 50%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 25px;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.ts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box,p{
+    font-size: 18px;
+    margin-left: 20px;
+    ;
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    
+
+}
+.tsnt, a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgba(245, 245, 245, 0.5);
+}
+a:hover{
+    color: rgba(0, 0, 255, 0.5);
+}
+.st{
+     font-size: 20px;
+     width: 90%;
+     margin-left: 18px;
+     margin-bottom: 10px;
+     height: 40px;
+     border-radius: 5px;
+     border-style: none;
+     padding-left: 15px;
+     font-style: italic;
+}
+input[type="placeholder"]{
+    font-size: 10px;
+}
+#stn{
+    font-style: italic;
+    font-size: small;
+    color: rgba(245, 245, 245, 0.5);
+}
+
+/* .navls-container-{
+    text-decoration: none;
+    margin-right: 15px;
+    /* color: white;
+} */ */
+
+
+
+@media only screen and (max-width: 1560px){
+    .logo{
+        margin-right: 50%;
+    /* }
+    body{
+        background-color: red;
+    }
+    .box-nav1{
+        background-color: red;
+    } */
+    
+}
+@media only screen and (min-width: 1561px) {
+    .logo{
+        margin-right: 40rem;
+    }
+    
+}

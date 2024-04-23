@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "fira black" ;
+    src: url('../Fonts/Fira_Sans/FiraSans-Black.ttf');
+}
+
+@font-face {
+    font-family: "fira bold" ;
+    src: url('../Fonts/Fira_Sans/FiraSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "fira regular" ;
+    src: url('../Fonts/Fira_Sans/FiraSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "fira light";
+    src: url('../Fonts/Fira_Sans/FiraSans-Light.ttf');
+}
+
+
+@font-face {
+    font-family: "fira thin";
+    src: url('../Fonts/Fira_Sans/FiraSans-Thin.ttf');
+}
+
+
+@font-face {
+    font-family: "fira semiBold";
+    src: url('../Fonts/Fira_Sans/FiraSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family:"ubuntu bold" ;
+    src: url('../Fonts/Ubuntu/Ubuntu/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: "ubuntu light";
+    src: url('../Fonts/Ubuntu/Ubuntu/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: "ubuntu regular";
+    src: url('../Fonts/Ubuntu/Ubuntu/Ubuntu-Regular.ttf');
+}
